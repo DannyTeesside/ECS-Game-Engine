@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{a754dc0e-dfa4-4c0c-808a-6a4850be3f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Headers">
+      <UniqueIdentifier>{9d331db5-ea2a-453e-9503-912a64119bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bases">
+      <UniqueIdentifier>{5cde5301-aff3-46c7-97f8-dcf5b0890726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bases\Headers">
+      <UniqueIdentifier>{edd7e615-c70b-49f0-aeb3-3c9ead1fb2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines">
+      <UniqueIdentifier>{57fce9dd-800a-4a76-a299-59120168805c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\Bases">
+      <UniqueIdentifier>{799e8d14-4df9-4f5f-b98c-b40b2f236cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\Bases\Headers">
+      <UniqueIdentifier>{07d0e016-ec64-44f1-b2ac-c205ec63f387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\World">
+      <UniqueIdentifier>{80de9e2f-4e65-4e34-a84b-8bc0f5428966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\Player">
+      <UniqueIdentifier>{9d70e35a-27b1-4742-a531-fad204de155c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\Enemies">
+      <UniqueIdentifier>{6160fe04-a0e6-4e9f-ab9f-225b83ed5b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\Player\Headers">
+      <UniqueIdentifier>{b8c464cb-c6f1-4b3b-8ad8-f18404086dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\World\Headers">
+      <UniqueIdentifier>{5113f70c-4e84-459d-9b7a-771d695d121c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachines\Enemies\Headers">
+      <UniqueIdentifier>{779751bc-9b07-4c04-ba1e-03a77baa44d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>StateMachines\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>StateMachines\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRoamState.cpp">
+      <Filter>StateMachines\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateMachine.cpp">
+      <Filter>StateMachines\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldStateMachine.cpp">
+      <Filter>StateMachines\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBaseState.cpp">
+      <Filter>StateMachines\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBaseState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldRoamState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBattleState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBattleState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyStateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBaseState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRoamState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBattleState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Bases\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Bases\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Bases\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentsMasterHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityMasterHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>StateMachines\Bases\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>StateMachines\Bases\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateMachine.h">
+      <Filter>StateMachines\Player\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRoamState.h">
+      <Filter>StateMachines\Player\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldStateMachine.h">
+      <Filter>StateMachines\World\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBaseState.h">
+      <Filter>StateMachines\Player\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBaseState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldRoamState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBattleState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBattleState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBaseState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRoamState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBattleState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
